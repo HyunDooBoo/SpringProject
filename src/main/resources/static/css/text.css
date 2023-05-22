@@ -1,0 +1,17 @@
+.line:hover {
+    color:black;
+ }
+
+.nope{
+    text-decoration: none;
+    color:black;
+}
+
+.textline:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.mainnope{
+    text-decoration: none;
+}
