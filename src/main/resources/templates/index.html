@@ -1,7 +1,7 @@
 <!doctype html>
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 
-<head th:replace="fragments/common :: head('Hello, Sprint Boot!')">
+<head th:replace="fragments/common :: head('Capstone Design')">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -210,13 +210,32 @@
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <footer th:replace="~{fragments/common :: footer}">
+  <footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
       crossorigin="anonymous"></script>
+      <div class="fixed-bottom">
+        <div class="row justify-content-center">
+            <div class="col-4 text-left" style="width:200px;">
+                <font size=3><b>Capstone Design</b><br></font>
+                <font size=2>Create By HyunDooBoo<br></font>
+            </div>
+            <div class="col-4 text-center" style="width:200px;">
+                <br>
+                <a href ="https://github.com/HyunDooBoo" target="_blank" class="line nope"><img src="image/footer-git.png">
+                <font size=2>HyunDooBoo</font></a>
+            </div>
+            <div class="col-4 text-right" style="width:200px;">
+                <font size=2>혼자서 독학으로 공부해서<br></font>
+                <font size=2>만들어본 첫 홈페이지<br></font>
+                <font size=2>Tk.com v0.8.1<br></font>
+            </div>
+          </div>
+        </div>
+    </div>
   </footer>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
