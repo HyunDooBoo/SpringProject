@@ -1,5 +1,6 @@
 package com.example.demo.config;
 
+import com.example.demo.handler.AttendanceSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,6 +25,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private DataSource dataSource;
 
+    @Autowired
+    private AttendanceSuccessHandler attendanceSuccessHandler;
+
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
@@ -35,6 +39,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()
                     .loginPage("/account/login")
                     .permitAll()
+                    .successHandler(attendanceSuccessHandler)
                     .and()
                 .logout()
                     .permitAll();

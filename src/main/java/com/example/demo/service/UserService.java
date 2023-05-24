@@ -25,4 +25,8 @@ public class UserService {
         user.getRoles().add(role);
         return userRepository.save(user);
     }
+
+    public User getUserByUsername(String username) {
+        return userRepository.findByUsername(username);
+    }
 }
