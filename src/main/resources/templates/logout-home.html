@@ -1,0 +1,231 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head th:replace="fragments/common :: head('Capstone Design')">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="starter-template.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <title>Capstone</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" th:replace="~{fragments/common :: menu('home')}">
+    <!-- <a class="navbar-brand" href="#">TK.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">홈<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">자유게시판</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                        aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div> -->
+  </nav>
+  <div class="container-lg">
+
+    <div class="row">
+
+      <div class="col-sm-5">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner rounded mx-auto d-block">
+            <div class="carousel-item active" data-bs-interval="5000">
+              <a href="https://www.inflearn.com" target="_blank">
+                <img src="image/inflearn.png" class="d-block w-100">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <a href="https://github.com" target="_blank">
+                <img src="image/git.png" class="d-block w-100">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <a href="https://www.youtube.com" target="_blank">
+                <img src="image/youtube.png" class="d-block w-100">
+              </a>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+              <a href="https://comic.naver.com/index" target="_blank">
+                <img src="image/webtoon.png" class="d-block w-100">
+              </a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="col-sm-7">
+
+        <div class="row">
+
+          <div class="row-8 row-sm-6">
+            <figure class="figure">
+              <a href="https://www.adobe.com/kr/lead/creativecloud/individual.html?sdid=KQQQV3R6&mv=display"
+                target="_blank">
+                <img src="image/car.jpg" class="img-thumbnail"></a>
+              <figcaption class="figure-caption text-end">상단의 일일 광고를 누르면 새 창에서 연결됩니다.</figcaption>
+            </figure>
+          </div>
+          <div class="row-4 row-sm-6 img-thumbnail ml-1">
+            <font size=5><b>Daily News</b></font>
+            <div class="btn-group float-end">
+              <button class="btn btn-secondary btn-sm" type="button">
+                바로가기
+              </button>
+              <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">바로가기</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.joongang.co.kr/" target="_blank">중앙일보</a></li>
+                <li><a class="dropdown-item" href="https://www.ytn.co.kr/" target="_blank">YTN</a></li>
+                <li><a class="dropdown-item" href="https://www.yna.co.kr/" target="_blank">연합뉴스</a></li>
+              </ul>
+            </div>
+
+            <div class="col img-thumbnail my-2">
+              <div class="row">
+                <div class="col-sm-8">
+                  <img src="image/thum1.jpg" style="border-radius: 70%;">
+                  <a href="https://www.seoul.co.kr/" class="line nope" target="_blank">
+                    <font size=2>서울신문<br></font>
+                  </a>
+                  <a href="https://www.seoul.co.kr/news/newsView.php?id=20230522500072&wlog_tag3=naver" class="mainnope"
+                    target="_blank">
+                    <font size=4><b>[속보] 검찰 '마약 혐의 홍길동 구속영장 청구</b><br></font>
+                  </a>
+                  <a href="https://www.seoul.co.kr/news/newsView.php?id=20230522500072&wlog_tag3=naver"
+                    class="textline nope" target="_blank">
+                    <font size=2>검찰이 프로포폴과 코카인 등 마약류 투약 혐의를 받고 있는 배우 홍길동에 대해 22일 구속영장을 청구했다.
+                      경찰 등에 따르면 서울중앙지검은 이날 마약류 관리에 관한 법률 위반 혐의를 받는 홍씨와 그의...
+                    </font>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <img src="image/news1.jpg" class="img-thumbnail">
+                </div>
+              </div>
+            </div>
+            <div class="col img-thumbnail my-2">
+              <div class="row">
+                <div class="col-sm-8">
+                  <img src="image/thum2.jpg" style="border-radius: 70%;">
+                  <a href="https://www.moneys.co.kr" class="line nope" target="_blank">
+                    <font size=2>머니S<br></font>
+                  </a>
+                  <a href="https://www.moneys.co.kr/news/mwView.php?no=2023052213065849550" class="mainnope"
+                    target="_blank">
+                    <font size=4><b>[단독] 다음·네이버 '뉴스제휴평가위원회' 잠정 중단...</b><br></font>
+                  </a>
+                  <a href="https://www.moneys.co.kr/news/mwView.php?no=2023052213065849550" class="textline nope"
+                    target="_blank">
+                    <font size=2>뉴스제휴평가위원회(제평위)가 활동을 중단하기로 결정했다. 제평위는 포털의 공정성을 두고 정치권의 압박이 이어지자
+                      개선 방안이 필요하다고 판단한 네이버와 다음의 요청을 수용해 이 같이 결정...
+                    </font>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <img src="image/news2.jpg" class="img-thumbnail">
+                </div>
+              </div>
+            </div>
+            <div class="col img-thumbnail my-2">
+              <div class="row">
+                <div class="col-sm-8">
+                  <img src="image/thum3.jpg" style="border-radius: 70%;">
+                  <a href="https://www.sedaily.com" class="line nope" target="_blank">
+                    <font size=2>서울경제<br></font>
+                  </a>
+                  <a href="https://www.sedaily.com/NewsView/29POFJ2XEQ" class="mainnope" target="_blank">
+                    <font size=4><b>편의점이 금융과 만났다... 최고 연 6% 적금 선봬</b><br></font>
+                  </a>
+                  <a href="https://www.sedaily.com/NewsView/29POFJ2XEQ" class="textline nope" target="_blank">
+                    <font size=2>기사내용 요약 "변화화는 미디어 환경에 적합한 새 제휴 모델 검토" 입점심사 당분간 중단…"중립성·공정성 유지 방안 모색"
+                      중립성과 공정성을 유지할 수 있는 제휴평가시스템에 대해 면밀히 검토 계획...
+                    </font>
+                  </a>
+                </div>
+                <div class="col-sm-4">
+                  <img src="image/news3.jpg" class="img-thumbnail">
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <footer th:replace="~{fragments/common :: footer}">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"></script>
+    
+
+  </footer>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
