@@ -48,11 +48,15 @@ public class AttendanceController {
     }
 
     @GetMapping("/")
-    public String showAttendance(Model model, Principal principal) {
-        String username = principal.getName();
-        int attendanceCount = attendanceService.getAttendanceCountByUsername(username);
-        logger.debug("attendanceCount: {}", attendanceCount);
-        model.addAttribute("attendanceCount", attendanceCount);
-        return "index";
+    public String showHomePage(Model model, Principal principal) {
+        if (principal != null) {
+            String username = principal.getName();
+            int attendanceCount = attendanceService.getAttendanceCountByUsername(username);
+            logger.debug("attendanceCount: {}", attendanceCount);
+            model.addAttribute("attendanceCount", attendanceCount);
+            return "index";
+        } else {
+            return "logout-home";
+        }
     }
 }

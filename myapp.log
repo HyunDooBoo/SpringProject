@@ -1493,3 +1493,1342 @@ java.lang.NullPointerException: null
         attendance0_.user_id=?
 2023-05-30 00:54:15.139 TRACE 33188 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
 2023-05-30 00:54:15.139 DEBUG 33188 --- [http-nio-8080-exec-4] c.e.d.controller.AttendanceController    : attendanceCount: 54
+2023-05-30 00:55:46.700 DEBUG 33188 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:55:46.700 TRACE 33188 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 00:55:46.701 DEBUG 33188 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:55:46.701 TRACE 33188 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 00:55:46.702 DEBUG 33188 --- [http-nio-8080-exec-3] c.e.d.controller.AttendanceController    : attendanceCount: 54
+2023-05-30 00:55:48.695 DEBUG 33188 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:55:48.696 TRACE 33188 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 00:55:48.697 DEBUG 33188 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:55:48.697 TRACE 33188 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 00:55:48.698 DEBUG 33188 --- [http-nio-8080-exec-9] c.e.d.controller.AttendanceController    : attendanceCount: 54
+2023-05-30 00:55:49.116 DEBUG 33188 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:55:49.116 TRACE 33188 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 00:55:49.117 DEBUG 33188 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:55:49.117 TRACE 33188 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 00:55:49.118 DEBUG 33188 --- [http-nio-8080-exec-9] c.e.d.controller.AttendanceController    : attendanceCount: 54
+2023-05-30 00:55:56.992 DEBUG 33188 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:55:56.993 TRACE 33188 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 00:55:56.994 DEBUG 33188 --- [http-nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:55:56.994 TRACE 33188 --- [http-nio-8080-exec-7] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 00:55:56.995 DEBUG 33188 --- [http-nio-8080-exec-7] c.e.d.controller.AttendanceController    : attendanceCount: 54
+2023-05-30 00:56:05.387 DEBUG 33188 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:56:05.387 TRACE 33188 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 00:56:05.388 DEBUG 33188 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:56:05.389 TRACE 33188 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 00:56:05.389 DEBUG 33188 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_0_,
+        user0_.enabled as enabled2_3_0_,
+        user0_.password as password3_3_0_,
+        user0_.username as username4_3_0_ 
+    from
+        user user0_ 
+    where
+        user0_.id=?
+2023-05-30 00:56:05.389 TRACE 33188 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 00:56:05.390 DEBUG 33188 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    update
+        attendance 
+    set
+        count=?,
+        user_id=? 
+    where
+        id=?
+2023-05-30 00:56:05.390 TRACE 33188 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [10]
+2023-05-30 00:56:05.390 TRACE 33188 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [19]
+2023-05-30 00:56:05.390 TRACE 33188 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [BIGINT] - [5]
+2023-05-30 00:56:05.395 DEBUG 33188 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:56:05.395 TRACE 33188 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 00:56:05.396 DEBUG 33188 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:56:05.396 TRACE 33188 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 00:56:05.396 DEBUG 33188 --- [http-nio-8080-exec-3] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 00:56:22.002  INFO 33188 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 00:56:22.003  INFO 33188 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 00:56:22.006  INFO 33188 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 00:56:22.008  INFO 33188 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 00:56:25.985  INFO 2768 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 2768 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 00:56:25.988 DEBUG 2768 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 00:56:25.988  INFO 2768 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 00:56:26.043  INFO 2768 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 00:56:26.043  INFO 2768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 00:56:26.043  INFO 2768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 00:56:26.640  INFO 2768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 00:56:26.714  INFO 2768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 3 JPA repository interfaces.
+2023-05-30 00:56:27.065  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.067  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.068  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@31828b76' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.068  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$4940b1dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.074  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.075  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.075  INFO 2768 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:56:27.614  INFO 2768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 00:56:27.624  INFO 2768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 00:56:27.624  INFO 2768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 00:56:27.763  INFO 2768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 00:56:27.763  INFO 2768 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1720 ms
+2023-05-30 00:56:27.909  INFO 2768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 00:56:27.971  INFO 2768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 00:56:28.021  INFO 2768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 00:56:28.083  INFO 2768 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 00:56:28.201  INFO 2768 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 00:56:28.312  INFO 2768 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 00:56:28.947  INFO 2768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 00:56:28.955  INFO 2768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 00:56:28.992  WARN 2768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 00:56:29.753  INFO 2768 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e374fd6, org.springframework.security.web.context.SecurityContextPersistenceFilter@be7817a, org.springframework.security.web.header.HeaderWriterFilter@248d6e5e, org.springframework.security.web.authentication.logout.LogoutFilter@63aa9c02, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4f0907c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c1247a6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e29b4cc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7779c3ee, org.springframework.security.web.session.SessionManagementFilter@1bca7699, org.springframework.security.web.access.ExceptionTranslationFilter@95f2e3d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69cb67cc]
+2023-05-30 00:56:29.879  INFO 2768 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 00:56:29.952  INFO 2768 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 00:56:30.095  INFO 2768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 00:56:30.129  INFO 2768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 00:56:30.131  INFO 2768 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.527 seconds (JVM running for 5.074)
+2023-05-30 00:56:34.408  INFO 2768 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 00:56:34.409  INFO 2768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 00:56:34.414  INFO 2768 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-05-30 00:56:34.475 DEBUG 2768 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:56:34.482 TRACE 2768 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 00:56:34.503 DEBUG 2768 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:56:34.504 TRACE 2768 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 00:56:34.509 DEBUG 2768 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 00:56:34.632 ERROR 2768 --- [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-1] Exception processing template "logged-in-home": Error resolving template [logged-in-home], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [logged-in-home], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_332]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_332]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_332]
+
+2023-05-30 00:56:34.635 ERROR 2768 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [logged-in-home], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [logged-in-home], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_332]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_332]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_332]
+
+2023-05-30 00:57:15.337  INFO 2768 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 00:57:15.338  INFO 2768 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 00:57:15.341  INFO 2768 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 00:57:15.343  INFO 2768 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 00:57:19.539  INFO 35224 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 35224 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 00:57:19.542 DEBUG 35224 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 00:57:19.543  INFO 35224 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 00:57:19.605  INFO 35224 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 00:57:19.606  INFO 35224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 00:57:19.606  INFO 35224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 00:57:20.231  INFO 35224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 00:57:20.305  INFO 35224 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 3 JPA repository interfaces.
+2023-05-30 00:57:20.690  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:20.693  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:20.695  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@38dd497c' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:20.695  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$ff6ce27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:20.702  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:20.702  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:20.703  INFO 35224 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 00:57:21.287  INFO 35224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 00:57:21.298  INFO 35224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 00:57:21.298  INFO 35224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 00:57:21.451  INFO 35224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 00:57:21.451  INFO 35224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1845 ms
+2023-05-30 00:57:21.589  INFO 35224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 00:57:21.652  INFO 35224 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 00:57:21.705  INFO 35224 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 00:57:21.781  INFO 35224 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 00:57:21.902  INFO 35224 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 00:57:22.023  INFO 35224 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 00:57:22.699  INFO 35224 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 00:57:22.708  INFO 35224 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 00:57:22.753  WARN 35224 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 00:57:23.465  INFO 35224 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33af8dc1, org.springframework.security.web.context.SecurityContextPersistenceFilter@51ac8882, org.springframework.security.web.header.HeaderWriterFilter@5bf71b32, org.springframework.security.web.authentication.logout.LogoutFilter@2584679a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@749b659d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45dfd700, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@324b9f38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@42f44800, org.springframework.security.web.session.SessionManagementFilter@71dafee7, org.springframework.security.web.access.ExceptionTranslationFilter@51fc0329, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@583f5372]
+2023-05-30 00:57:23.582  INFO 35224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 00:57:23.664  INFO 35224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 00:57:23.834  INFO 35224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 00:57:23.875  INFO 35224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 00:57:23.877  INFO 35224 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.758 seconds (JVM running for 5.322)
+2023-05-30 00:57:25.510  INFO 35224 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 00:57:25.510  INFO 35224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 00:57:25.516  INFO 35224 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-05-30 00:57:25.577 DEBUG 35224 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:57:25.584 TRACE 35224 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 00:57:25.605 DEBUG 35224 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:57:25.606 TRACE 35224 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 00:57:25.612 DEBUG 35224 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 00:57:28.999 DEBUG 35224 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 00:57:29.000 TRACE 35224 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 00:57:29.001 DEBUG 35224 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 00:57:29.001 TRACE 35224 --- [http-nio-8080-exec-3] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 00:57:29.002 DEBUG 35224 --- [http-nio-8080-exec-3] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 01:00:27.321  INFO 35224 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:00:27.322  INFO 35224 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:00:27.326  INFO 35224 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:00:27.329  INFO 35224 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:00:29.789  INFO 8940 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 8940 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:00:29.791 DEBUG 8940 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:00:29.792  INFO 8940 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:00:29.841  INFO 8940 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:00:29.841  INFO 8940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:00:29.841  INFO 8940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:00:30.428  INFO 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:00:30.499  INFO 8940 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64ms. Found 3 JPA repository interfaces.
+2023-05-30 01:00:30.875  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:30.878  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:30.880  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@531d870e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:30.882  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$dfda161e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:30.890  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:30.891  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:30.892  INFO 8940 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:00:31.510  INFO 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:00:31.522  INFO 8940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:00:31.522  INFO 8940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:00:31.678  INFO 8940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:00:31.678  INFO 8940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1837 ms
+2023-05-30 01:00:31.828  INFO 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:00:31.883  INFO 8940 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:00:31.936  INFO 8940 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:00:32.012  INFO 8940 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:00:32.138  INFO 8940 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:00:32.251  INFO 8940 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:00:32.917  INFO 8940 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:00:32.925  INFO 8940 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:00:32.966  WARN 8940 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:00:33.704  INFO 8940 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60feeeb7, org.springframework.security.web.context.SecurityContextPersistenceFilter@77db0b17, org.springframework.security.web.header.HeaderWriterFilter@76416e08, org.springframework.security.web.authentication.logout.LogoutFilter@7b1e059c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@753aa7f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4571f946, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8af66f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5475a2f0, org.springframework.security.web.session.SessionManagementFilter@6b410680, org.springframework.security.web.access.ExceptionTranslationFilter@44369bc6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d3aa69e]
+2023-05-30 01:00:33.858  INFO 8940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:00:33.942  INFO 8940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:00:34.123  INFO 8940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:00:34.166  INFO 8940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:00:34.170  INFO 8940 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.76 seconds (JVM running for 5.34)
+2023-05-30 01:00:35.583  INFO 8940 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:00:35.583  INFO 8940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:00:35.588  INFO 8940 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-05-30 01:00:35.648 DEBUG 8940 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:00:35.655 TRACE 8940 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:00:35.676 DEBUG 8940 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:00:35.677 TRACE 8940 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:00:35.682 DEBUG 8940 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 01:00:36.450 DEBUG 8940 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:00:36.450 TRACE 8940 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:00:36.451 DEBUG 8940 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:00:36.451 TRACE 8940 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:00:36.452 DEBUG 8940 --- [http-nio-8080-exec-5] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 01:02:08.351  INFO 8940 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:02:08.353  INFO 8940 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:02:08.356  INFO 8940 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:02:08.359  INFO 8940 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:02:12.440  INFO 38956 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 38956 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:02:12.443 DEBUG 38956 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:02:12.444  INFO 38956 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:02:12.492  INFO 38956 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:02:12.493  INFO 38956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:02:12.493  INFO 38956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:02:13.088  INFO 38956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:02:13.161  INFO 38956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 3 JPA repository interfaces.
+2023-05-30 01:02:13.524  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:13.526  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:13.527  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@72340f8f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:13.529  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$f746e97a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:13.535  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:13.536  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:13.536  INFO 38956 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:02:14.085  INFO 38956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:02:14.095  INFO 38956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:02:14.096  INFO 38956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:02:14.242  INFO 38956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:02:14.242  INFO 38956 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1749 ms
+2023-05-30 01:02:14.389  INFO 38956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:02:14.455  INFO 38956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:02:14.508  INFO 38956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:02:14.575  INFO 38956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:02:14.699  INFO 38956 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:02:14.816  INFO 38956 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:02:15.489  INFO 38956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:02:15.497  INFO 38956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:02:15.535  WARN 38956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:02:16.261  INFO 38956 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4777e1b2, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f20d96c, org.springframework.security.web.header.HeaderWriterFilter@7769feaf, org.springframework.security.web.authentication.logout.LogoutFilter@694d39be, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@766daa69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71bc9590, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@700dcb01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@481ef4a5, org.springframework.security.web.session.SessionManagementFilter@291847a6, org.springframework.security.web.access.ExceptionTranslationFilter@79968b64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4295cb8b]
+2023-05-30 01:02:16.378  INFO 38956 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:02:16.451  INFO 38956 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:02:16.603  INFO 38956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:02:16.637  INFO 38956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:02:16.639  INFO 38956 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.581 seconds (JVM running for 5.16)
+2023-05-30 01:02:17.905  INFO 38956 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:02:17.905  INFO 38956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:02:17.911  INFO 38956 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-05-30 01:02:17.974 DEBUG 38956 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:02:17.981 TRACE 38956 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:02:18.003 DEBUG 38956 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:02:18.004 TRACE 38956 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:02:18.009 DEBUG 38956 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 01:02:20.022 DEBUG 38956 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:02:20.023 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:02:20.024 DEBUG 38956 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:02:20.024 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:02:20.024 DEBUG 38956 --- [http-nio-8080-exec-9] c.e.d.controller.AttendanceController    : attendanceCount: 10
+2023-05-30 01:02:24.662 DEBUG 38956 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:02:24.663 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:02:24.668 DEBUG 38956 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:02:24.669 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:02:24.669 DEBUG 38956 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_0_,
+        user0_.enabled as enabled2_3_0_,
+        user0_.password as password3_3_0_,
+        user0_.username as username4_3_0_ 
+    from
+        user user0_ 
+    where
+        user0_.id=?
+2023-05-30 01:02:24.669 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:02:24.694 DEBUG 38956 --- [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    update
+        attendance 
+    set
+        count=?,
+        user_id=? 
+    where
+        id=?
+2023-05-30 01:02:24.694 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [11]
+2023-05-30 01:02:24.695 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [19]
+2023-05-30 01:02:24.695 TRACE 38956 --- [http-nio-8080-exec-9] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [BIGINT] - [5]
+2023-05-30 01:02:24.703 DEBUG 38956 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:02:24.704 TRACE 38956 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:02:24.704 DEBUG 38956 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:02:24.704 TRACE 38956 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:02:24.705 DEBUG 38956 --- [http-nio-8080-exec-4] c.e.d.controller.AttendanceController    : attendanceCount: 11
+2023-05-30 01:04:33.779  INFO 38956 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:04:33.780  INFO 38956 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:04:33.783  INFO 38956 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:04:33.786  INFO 38956 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:04:36.321  INFO 36772 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 36772 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:04:36.324 DEBUG 36772 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:04:36.324  INFO 36772 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:04:36.386  INFO 36772 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:04:36.387  INFO 36772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:04:36.387  INFO 36772 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:04:37.009  INFO 36772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:04:37.082  INFO 36772 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 3 JPA repository interfaces.
+2023-05-30 01:04:37.432  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.435  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.436  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@49a28dca' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.436  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$814f86e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.442  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.443  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.443  INFO 36772 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:04:37.967  INFO 36772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:04:37.979  INFO 36772 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:04:37.979  INFO 36772 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:04:38.120  INFO 36772 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:04:38.120  INFO 36772 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1733 ms
+2023-05-30 01:04:38.278  INFO 36772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:04:38.343  INFO 36772 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:04:38.396  INFO 36772 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:04:38.462  INFO 36772 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:04:38.584  INFO 36772 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:04:38.696  INFO 36772 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:04:39.351  INFO 36772 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:04:39.360  INFO 36772 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:04:39.412  WARN 36772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:04:40.153  INFO 36772 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@759c04b9, org.springframework.security.web.context.SecurityContextPersistenceFilter@95f2e3d, org.springframework.security.web.header.HeaderWriterFilter@551f5850, org.springframework.security.web.authentication.logout.LogoutFilter@37ff78bd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@20a1dcc9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@248d6e5e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@be7817a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@648ef6d0, org.springframework.security.web.session.SessionManagementFilter@2d14fdab, org.springframework.security.web.access.ExceptionTranslationFilter@7e3824ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43ca538e]
+2023-05-30 01:04:40.272  INFO 36772 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:04:40.346  INFO 36772 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:04:40.496  INFO 36772 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:04:40.532  INFO 36772 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:04:40.534  INFO 36772 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.609 seconds (JVM running for 5.194)
+2023-05-30 01:04:42.289  INFO 36772 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:04:42.289  INFO 36772 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:04:42.295  INFO 36772 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-05-30 01:04:42.357 DEBUG 36772 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:04:42.363 TRACE 36772 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:04:42.383 DEBUG 36772 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:04:42.384 TRACE 36772 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:04:42.390 DEBUG 36772 --- [http-nio-8080-exec-2] c.e.d.controller.AttendanceController    : attendanceCount: 11
+2023-05-30 01:08:26.694  INFO 36772 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:08:26.695  INFO 36772 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:08:26.697  INFO 36772 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:08:26.700  INFO 36772 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:08:30.719  INFO 33432 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 33432 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:08:30.723 DEBUG 33432 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:08:30.723  INFO 33432 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:08:30.789  INFO 33432 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:08:30.789  INFO 33432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:08:30.789  INFO 33432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:08:31.390  INFO 33432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:08:31.463  INFO 33432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 3 JPA repository interfaces.
+2023-05-30 01:08:31.827  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:31.830  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:31.831  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@686d08bf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:31.832  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$c1960736] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:31.837  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:31.838  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:31.839  INFO 33432 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:08:32.381  INFO 33432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:08:32.390  INFO 33432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:08:32.391  INFO 33432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:08:32.530  INFO 33432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:08:32.530  INFO 33432 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1740 ms
+2023-05-30 01:08:32.696  INFO 33432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:08:32.752  INFO 33432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:08:32.819  INFO 33432 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:08:32.917  INFO 33432 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:08:33.057  INFO 33432 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:08:33.176  INFO 33432 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:08:33.863  INFO 33432 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:08:33.871  INFO 33432 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:08:33.920  WARN 33432 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:08:34.682  INFO 33432 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c2a0b75, org.springframework.security.web.context.SecurityContextPersistenceFilter@a970563, org.springframework.security.web.header.HeaderWriterFilter@347aa9b2, org.springframework.security.web.authentication.logout.LogoutFilter@7e3824ae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6fb5ef41, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26679e0c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@425e1c35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60feeeb7, org.springframework.security.web.session.SessionManagementFilter@1b595686, org.springframework.security.web.access.ExceptionTranslationFilter@22a9eb85, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46ac8d3c]
+2023-05-30 01:08:34.827  INFO 33432 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:08:34.921  INFO 33432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:08:35.108  INFO 33432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:08:35.159  INFO 33432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:08:35.161  INFO 33432 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.868 seconds (JVM running for 5.425)
+2023-05-30 01:08:35.457  INFO 33432 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:08:35.458  INFO 33432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:08:35.464  INFO 33432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-05-30 01:08:35.534 DEBUG 33432 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:08:35.542 TRACE 33432 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [test1]
+2023-05-30 01:08:35.567 DEBUG 33432 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:08:35.568 TRACE 33432 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [19]
+2023-05-30 01:08:35.574 DEBUG 33432 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 11
+2023-05-30 01:08:53.930 DEBUG 33432 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:08:53.931 TRACE 33432 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:08:53.936 DEBUG 33432 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:08:53.937 TRACE 33432 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:08:53.937 DEBUG 33432 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_0_,
+        user0_.enabled as enabled2_3_0_,
+        user0_.password as password3_3_0_,
+        user0_.username as username4_3_0_ 
+    from
+        user user0_ 
+    where
+        user0_.id=?
+2023-05-30 01:08:53.937 TRACE 33432 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:08:53.962 DEBUG 33432 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    update
+        attendance 
+    set
+        count=?,
+        user_id=? 
+    where
+        id=?
+2023-05-30 01:08:53.963 TRACE 33432 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [55]
+2023-05-30 01:08:53.963 TRACE 33432 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [11]
+2023-05-30 01:08:53.963 TRACE 33432 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [BIGINT] - [6]
+2023-05-30 01:08:53.972 DEBUG 33432 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:08:53.972 TRACE 33432 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:08:53.973 DEBUG 33432 --- [http-nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:08:53.973 TRACE 33432 --- [http-nio-8080-exec-6] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:08:53.973 DEBUG 33432 --- [http-nio-8080-exec-6] c.e.d.controller.AttendanceController    : attendanceCount: 55
+2023-05-30 01:09:09.222 DEBUG 33432 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:09:09.223 TRACE 33432 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:09:09.224 DEBUG 33432 --- [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:09:09.224 TRACE 33432 --- [http-nio-8080-exec-10] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:09:09.224 DEBUG 33432 --- [http-nio-8080-exec-10] c.e.d.controller.AttendanceController    : attendanceCount: 55
+2023-05-30 01:10:03.537  INFO 33432 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:10:03.538  INFO 33432 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:10:03.541  INFO 33432 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:10:03.544  INFO 33432 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:10:06.052  INFO 12520 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 12520 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:10:06.054 DEBUG 12520 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:10:06.055  INFO 12520 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:10:06.108  INFO 12520 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:10:06.109  INFO 12520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:10:06.109  INFO 12520 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:10:06.705  INFO 12520 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:10:06.781  INFO 12520 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 3 JPA repository interfaces.
+2023-05-30 01:10:07.137  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.139  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.140  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@74bc232b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.141  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$3e63dfc1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.147  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.147  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.148  INFO 12520 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:10:07.680  INFO 12520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:10:07.691  INFO 12520 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:10:07.692  INFO 12520 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:10:07.834  INFO 12520 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:10:07.835  INFO 12520 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1725 ms
+2023-05-30 01:10:07.973  INFO 12520 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:10:08.033  INFO 12520 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:10:08.095  INFO 12520 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:10:08.172  INFO 12520 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:10:08.294  INFO 12520 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:10:08.407  INFO 12520 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:10:09.047  INFO 12520 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:10:09.055  INFO 12520 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:10:09.099  WARN 12520 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:10:09.831  INFO 12520 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d5389c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@551f5850, org.springframework.security.web.header.HeaderWriterFilter@145fd42, org.springframework.security.web.authentication.logout.LogoutFilter@3339294b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@43ca538e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d14fdab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@248d6e5e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@433a4735, org.springframework.security.web.session.SessionManagementFilter@7e3824ae, org.springframework.security.web.access.ExceptionTranslationFilter@5d51605f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28d19625]
+2023-05-30 01:10:09.958  INFO 12520 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:10:10.043  INFO 12520 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:10:10.193  INFO 12520 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:10:10.228  INFO 12520 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:10:10.230  INFO 12520 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.568 seconds (JVM running for 5.147)
+2023-05-30 01:10:11.969  INFO 12520 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:10:11.970  INFO 12520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:10:11.976  INFO 12520 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-05-30 01:10:23.820 DEBUG 12520 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:10:23.822 TRACE 12520 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:10:23.849 DEBUG 12520 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:10:23.850 TRACE 12520 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:10:23.855 DEBUG 12520 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_0_,
+        user0_.enabled as enabled2_3_0_,
+        user0_.password as password3_3_0_,
+        user0_.username as username4_3_0_ 
+    from
+        user user0_ 
+    where
+        user0_.id=?
+2023-05-30 01:10:23.855 TRACE 12520 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:10:23.881 DEBUG 12520 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    update
+        attendance 
+    set
+        count=?,
+        user_id=? 
+    where
+        id=?
+2023-05-30 01:10:23.882 TRACE 12520 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [56]
+2023-05-30 01:10:23.882 TRACE 12520 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [11]
+2023-05-30 01:10:23.882 TRACE 12520 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [BIGINT] - [6]
+2023-05-30 01:10:23.891 DEBUG 12520 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:10:23.891 TRACE 12520 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:10:23.892 DEBUG 12520 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:10:23.892 TRACE 12520 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:10:23.893 DEBUG 12520 --- [http-nio-8080-exec-5] c.e.d.controller.AttendanceController    : attendanceCount: 56
+2023-05-30 01:10:56.143 DEBUG 12520 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:10:56.144 TRACE 12520 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:10:56.144 DEBUG 12520 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:10:56.145 TRACE 12520 --- [http-nio-8080-exec-4] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:10:56.145 DEBUG 12520 --- [http-nio-8080-exec-4] c.e.d.controller.AttendanceController    : attendanceCount: 56
+2023-05-30 01:11:07.982 DEBUG 12520 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:11:07.983 TRACE 12520 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:11:07.984 DEBUG 12520 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:11:07.984 TRACE 12520 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:11:07.984 DEBUG 12520 --- [http-nio-8080-exec-8] c.e.d.controller.AttendanceController    : attendanceCount: 56
+2023-05-30 01:12:56.967  INFO 12520 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:12:56.968  INFO 12520 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:12:56.970  INFO 12520 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:12:56.973  INFO 12520 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:12:58.972  INFO 40276 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 40276 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:12:58.974 DEBUG 40276 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:12:58.975  INFO 40276 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:12:59.031  INFO 40276 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:12:59.032  INFO 40276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:12:59.032  INFO 40276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:12:59.649  INFO 40276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:12:59.726  INFO 40276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 3 JPA repository interfaces.
+2023-05-30 01:13:00.082  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.085  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.086  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5d1c6e7e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.088  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$6fd31811] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.095  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.096  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.096  INFO 40276 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:00.626  INFO 40276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:13:00.635  INFO 40276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:13:00.635  INFO 40276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:13:00.777  INFO 40276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:13:00.777  INFO 40276 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1745 ms
+2023-05-30 01:13:00.923  INFO 40276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:13:00.987  INFO 40276 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:13:01.050  INFO 40276 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:13:01.126  INFO 40276 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:13:01.279  INFO 40276 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:13:01.406  INFO 40276 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:13:02.076  INFO 40276 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:13:02.084  INFO 40276 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:13:02.128  WARN 40276 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:13:02.814  INFO 40276 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b532629, org.springframework.security.web.context.SecurityContextPersistenceFilter@2645f40f, org.springframework.security.web.header.HeaderWriterFilter@6797c4c, org.springframework.security.web.authentication.logout.LogoutFilter@3f20d96c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@393e3c6e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cd3bb1c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71de6967, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b69b0a9, org.springframework.security.web.session.SessionManagementFilter@49f3d25a, org.springframework.security.web.access.ExceptionTranslationFilter@228433c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59b402f2]
+2023-05-30 01:13:02.931  INFO 40276 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:13:03.008  INFO 40276 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:13:03.161  INFO 40276 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:13:03.197  INFO 40276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:13:03.199  INFO 40276 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.646 seconds (JVM running for 5.275)
+2023-05-30 01:13:04.822  INFO 40276 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:13:04.823  INFO 40276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:13:04.828  INFO 40276 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2023-05-30 01:13:04.891 DEBUG 40276 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:13:04.898 TRACE 40276 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:13:04.919 DEBUG 40276 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:13:04.920 TRACE 40276 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:13:04.926 DEBUG 40276 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 56
+2023-05-30 01:13:17.897  INFO 40276 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:13:17.899  INFO 40276 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:13:17.902  INFO 40276 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-30 01:13:17.905  INFO 40276 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-30 01:13:20.400  INFO 14936 --- [restartedMain] com.example.demo.TryApplication          : Starting TryApplication on DESKTOP-0QKGLSG with PID 14936 (C:\SpringBootProject\try\target\classes started by Hyundoo in C:\SpringBootProject\try)
+2023-05-30 01:13:20.404 DEBUG 14936 --- [restartedMain] com.example.demo.TryApplication          : Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2023-05-30 01:13:20.405  INFO 14936 --- [restartedMain] com.example.demo.TryApplication          : No active profile set, falling back to default profiles: default
+2023-05-30 01:13:20.461  INFO 14936 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\Hyundoo\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/Hyundoo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2023-05-30 01:13:20.461  INFO 14936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-30 01:13:20.462  INFO 14936 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-30 01:13:21.082  INFO 14936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-30 01:13:21.160  INFO 14936 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70ms. Found 3 JPA repository interfaces.
+2023-05-30 01:13:21.561  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:21.563  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:21.565  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5ff46293' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:21.565  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [com.example.demo.config.MethodSecurityConfig$$EnhancerBySpringCGLIB$$dfda161e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:21.572  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:21.573  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:21.573  INFO 14936 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-05-30 01:13:22.136  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-05-30 01:13:22.145  INFO 14936 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-30 01:13:22.145  INFO 14936 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2023-05-30 01:13:22.284  INFO 14936 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-30 01:13:22.284  INFO 14936 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1822 ms
+2023-05-30 01:13:22.443  INFO 14936 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-30 01:13:22.504  INFO 14936 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-30 01:13:22.560  INFO 14936 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-30 01:13:22.642  INFO 14936 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2023-05-30 01:13:22.766  INFO 14936 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-05-30 01:13:22.881  INFO 14936 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MariaDB103Dialect
+2023-05-30 01:13:23.558  INFO 14936 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-30 01:13:23.566  INFO 14936 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-30 01:13:23.618  WARN 14936 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-30 01:13:24.385  INFO 14936 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fb5ef41, org.springframework.security.web.context.SecurityContextPersistenceFilter@22a9eb85, org.springframework.security.web.header.HeaderWriterFilter@653d6ce3, org.springframework.security.web.authentication.logout.LogoutFilter@75d663a0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1bdc1629, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@347aa9b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a970563, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@753aa7f, org.springframework.security.web.session.SessionManagementFilter@2d0ba6f4, org.springframework.security.web.access.ExceptionTranslationFilter@7eb7f580, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b25f794]
+2023-05-30 01:13:24.514  INFO 14936 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-05-30 01:13:24.595  INFO 14936 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-05-30 01:13:24.765  INFO 14936 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-30 01:13:24.805  INFO 14936 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-30 01:13:24.807  INFO 14936 --- [restartedMain] com.example.demo.TryApplication          : Started TryApplication in 4.809 seconds (JVM running for 5.372)
+2023-05-30 01:13:40.501  INFO 14936 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-30 01:13:40.501  INFO 14936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-30 01:13:40.507  INFO 14936 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-05-30 01:13:40.571 DEBUG 14936 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:13:40.577 TRACE 14936 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:13:40.597 DEBUG 14936 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:13:40.598 TRACE 14936 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:13:40.604 DEBUG 14936 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 56
+2023-05-30 01:13:45.696 DEBUG 14936 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:13:45.696 TRACE 14936 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:13:45.697 DEBUG 14936 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:13:45.698 TRACE 14936 --- [http-nio-8080-exec-5] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:13:45.698 DEBUG 14936 --- [http-nio-8080-exec-5] c.e.d.controller.AttendanceController    : attendanceCount: 56
+2023-05-30 01:13:56.495 DEBUG 14936 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:13:56.496 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:13:56.501 DEBUG 14936 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:13:56.502 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:13:56.502 DEBUG 14936 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_0_,
+        user0_.enabled as enabled2_3_0_,
+        user0_.password as password3_3_0_,
+        user0_.username as username4_3_0_ 
+    from
+        user user0_ 
+    where
+        user0_.id=?
+2023-05-30 01:13:56.502 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:13:56.527 DEBUG 14936 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    update
+        attendance 
+    set
+        count=?,
+        user_id=? 
+    where
+        id=?
+2023-05-30 01:13:56.527 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [INTEGER] - [57]
+2023-05-30 01:13:56.528 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [BIGINT] - [11]
+2023-05-30 01:13:56.528 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [BIGINT] - [6]
+2023-05-30 01:13:56.536 DEBUG 14936 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:13:56.537 TRACE 14936 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:13:56.537 DEBUG 14936 --- [http-nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:13:56.537 TRACE 14936 --- [http-nio-8080-exec-1] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:13:56.538 DEBUG 14936 --- [http-nio-8080-exec-1] c.e.d.controller.AttendanceController    : attendanceCount: 57
+2023-05-30 01:13:58.868 DEBUG 14936 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        board0_.id as id1_1_,
+        board0_.content as content2_1_,
+        board0_.title as title3_1_,
+        board0_.user_id as user_id4_1_ 
+    from
+        board board0_ 
+    where
+        board0_.title like ? escape ? 
+        or board0_.content like ? escape ? limit ?
+2023-05-30 01:13:58.869 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [%%]
+2023-05-30 01:13:58.869 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [CHAR] - [\]
+2023-05-30 01:13:58.869 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [%%]
+2023-05-30 01:13:58.869 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [CHAR] - [\]
+2023-05-30 01:13:58.870 DEBUG 14936 --- [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_0_,
+        user0_.enabled as enabled2_3_0_,
+        user0_.password as password3_3_0_,
+        user0_.username as username4_3_0_ 
+    from
+        user user0_ 
+    where
+        user0_.id=?
+2023-05-30 01:13:58.870 TRACE 14936 --- [http-nio-8080-exec-8] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:14:00.390 DEBUG 14936 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        user0_.id as id1_3_,
+        user0_.enabled as enabled2_3_,
+        user0_.password as password3_3_,
+        user0_.username as username4_3_ 
+    from
+        user user0_ 
+    where
+        user0_.username=?
+2023-05-30 01:14:00.390 TRACE 14936 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [admin]
+2023-05-30 01:14:00.391 DEBUG 14936 --- [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        attendance0_.id as id1_0_,
+        attendance0_.count as count2_0_,
+        attendance0_.user_id as user_id3_0_ 
+    from
+        attendance attendance0_ 
+    where
+        attendance0_.user_id=?
+2023-05-30 01:14:00.391 TRACE 14936 --- [http-nio-8080-exec-2] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [BIGINT] - [11]
+2023-05-30 01:14:00.392 DEBUG 14936 --- [http-nio-8080-exec-2] c.e.d.controller.AttendanceController    : attendanceCount: 57
