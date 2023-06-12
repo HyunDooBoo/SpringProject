@@ -10,6 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
+
 @Service
 public class AttendanceService {
 
@@ -27,11 +29,16 @@ public class AttendanceService {
             attendance = new Attendance();
             attendance.setUser(user);
             attendance.setCount(1);
+            attendance.setLastAttendanceDate(LocalDate.now());
+            attendanceRepository.save(attendance);
         } else {
-            // 기존 사용자의 경우 출석 횟수 증가
-            attendance.setCount(attendance.getCount() + 1);
+            LocalDate lastAttendanceDate = attendance.getLastAttendanceDate();
+            if (lastAttendanceDate == null || lastAttendanceDate.isBefore(LocalDate.now())) {
+                attendance.setCount(attendance.getCount() + 1);
+                attendance.setLastAttendanceDate(LocalDate.now());
+                attendanceRepository.save(attendance);
+            }
         }
-        attendanceRepository.save(attendance);
     }
 
     public int getAttendanceCountByUsername(String username) {
